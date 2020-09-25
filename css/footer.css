@@ -1,0 +1,249 @@
+html{
+    font-family: 'main'
+}
+
+.footer{
+    width: 100%;
+    background-color: black;
+    height: 262px;
+}
+
+.content{
+    width: 1670px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer p{
+    font-size: 40px;
+    color: white;
+}
+
+.copyright{
+    padding-top: 50px;
+}
+
+.rights{
+    margin-top: -35px;
+    padding-bottom: 50px;
+}
+
+.icon{
+    margin-top: 60px;
+    width: 85px;
+    height: 85px;
+    background-color: white;
+    float: right;
+    margin-left: 25px;
+}
+
+.imgicon{
+    padding-top: 15px;
+    width: 52px;
+    height: auto;
+}
+
+.yt:hover{
+    background-color: red;
+    transition: 0.3s;
+}
+
+.be:hover{
+    background-color: rgb(1 92 255);
+    transition: 0.3s;
+}
+
+.dr:hover{
+    background-color: rgb(231 77 137);
+    transition: 0.3s;
+}
+
+.ig:hover{
+    background: background: rgba(247,212,0,1);
+    background: linear-gradient(135deg, rgba(247,212,0,1) 0%, rgba(239,13,30,1) 50%, rgba(126,62,177,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7d400', endColorstr='#7e3eb1', GradientType=1 );
+    transition: 0.3s;
+}
+
+.fb:hover{
+    background: rgba(25,173,255,1);
+    background: -webkit-linear-gradient(rgba(25,173,255,1) 0%, rgba(2,98,225,1) 100%);
+    background: -o-linear-gradient(rgba(25,173,255,1) 0%, rgba(2,98,225,1) 100%);
+    background: linear-gradient(rgba(25,173,255,1) 0%, rgba(2,98,225,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#19adff', endColorstr='#0262e1', GradientType=0 );
+    transition: 0.3s;
+}
+
+@media (max-width:1675px){
+    .content{
+        width: 1470px;
+    }
+}
+
+@media (max-width:1480px){
+    .content{
+        width: 1270px;
+    }
+}
+
+@media (max-width:1275px){
+    .content{
+        width: 1070px;
+    }
+    .icon{
+        width: 70px;
+        height: 70px;
+    }
+    .imgicon{
+        width: 42px;
+    }
+    .footer p{
+        font-size: 35px;
+    }
+}
+
+@media (max-width:1075px){
+    .content{
+        width: 870px;
+    }
+    .icon{
+        width: 62px;
+        height: 62px;
+    }
+    .imgicon{
+        width: 36px;
+    }
+    .footer p{
+        font-size: 30px;
+    }
+}
+
+@media (max-width:875px){
+    .content{
+        width: 670px;
+    }
+    .icon{
+        width: 62px;
+        height: 62px;
+        float: none;
+        display: inline-block;
+    }
+    
+    .fb{
+        margin-left: 130px;
+    }
+    .imgicon{
+        width: 36px;
+    }
+    .footer p{
+        font-size: 30px;
+        display: inline-block;
+        margin-left: 130px;
+    }
+    
+    .footer{
+        height: 400px;
+    }
+}
+
+@media (max-width:735px){
+    .content{
+        width: 470px;
+    }
+    .icon{
+        margin-left: 15px;
+    }
+    .footer p{
+        font-size: 28px;
+        display: inline-block;
+        margin-left: 35px;
+    }
+    .fb{
+        margin-left: 40px;
+    }
+    
+}
+
+@media (max-width:495px){
+    .content{
+        width: 270px;
+    }
+    .icon{
+        width: 42px;
+        height: 42px;
+        margin-left: 5px;
+    }
+    .imgicon{
+        width: 22px;
+        padding-top: 11px;
+    }
+    .footer p{
+        font-size: 18px;
+        display: inline-block;
+        margin-left: 15px;
+    }
+    .fb{
+        margin-left: 15px;
+    }
+    .footer{
+        height: 300px;
+    }
+}
+
+@media (max-width:360px){
+    .content{
+        width: 270px;
+    }
+    .icon{
+        width: 42px;
+        height: 42px;
+        margin-left: 5px;
+    }
+    .imgicon{
+        width: 22px;
+        padding-top: 11px;
+    }
+    .footer p{
+        font-size: 18px;
+        display: inline-block;
+        margin-left: 15px;
+    }
+    .fb{
+        margin-left: 15px;
+    }
+    .footer{
+        height: 300px;
+    }
+}
+
+@media (max-width:282px){
+    .content{
+        width: 120px;
+    }
+    .icon{
+        width: 18px;
+        height: 18px;
+        margin-left: 1px;
+    }
+    .imgicon{
+        width: 14px;
+        padding-top: 2px;
+    }
+    .footer p{
+        font-size: 12px;
+        display: inline-block;
+        margin-left: 1px;
+    }
+    .fb{
+        margin-left: 0px;
+    }
+    .footer{
+        height: 300px;
+    }
+}
+
+@media (max-width:250px){
+    .content{
+        width: 80px;
+    }
+}
