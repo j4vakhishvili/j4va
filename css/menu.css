@@ -104,21 +104,21 @@
 
 @media (max-width:1075px){
     .box{
-        margin-left: 34px;
-        width: 398px;
-        height: 560px;
+        width: 820px;
+        height: 1085px;
         margin-bottom: 34px;
     }
     .title{
-        font-size: 30px;
+        font-size: 45px;
     }
     .thumb{
-        width: 338px;
+        width: 730px;
     }
     .seemore{
-        width: 338px;
-        height: 78px;
-        font-size: 28px;
+        width: 730px;
+        height: 135px;
+        font-size: 65px;
+        margin-top: 35px;
     }
     .text{
         font-size: 40px;
