@@ -100,12 +100,6 @@
     .digitaltxt{
         letter-spacing: 30px;
     }
-    .start{
-        width: 850px;
-        height: 200px;
-        font-size: 55px;
-    }
-}
 
 @media (max-width:735px){
     .indextxt{
