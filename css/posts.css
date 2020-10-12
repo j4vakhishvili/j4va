@@ -108,6 +108,22 @@
     .subject{
         width: 870px;
     }
+    .head{
+        .padding-top: 115px;
+    }
+    .blank{
+        height: 190px;
+    }
+    .gobcktxt{
+        font-size: 48px;
+    }
+    .gobck{
+        width: 55px;
+    }
+    .headtitle {
+        margin-top: 5px;
+        font-size: 36px;
+    }
 }
 
 @media (max-width:922px){
