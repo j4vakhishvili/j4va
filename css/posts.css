@@ -28,6 +28,7 @@
     text-decoration: none;
     display: inline-block;
     float: left;
+    cursor: pointer;
 }
 
 .gobcktxt:hover{
