@@ -1,172 +1,183 @@
-.container{
-    margin-top: -50px;
+.circle {
+    background-color: #bbb;
+    border-radius: 50%;
+    background: linear-gradient(303deg, #d38400, #f70034);
+    -webkit-animation: AnimationName 1s ease infinite;
+    -moz-animation: AnimationName 1s ease infinite;
+    animation: AnimationName 1s ease infinite;
+    display: block;
+}
+
+.c1{
+    width: 300px;
+    height: 300px;
+    margin: -230px 0px 0px -140px;
+}
+
+.c2{
+    width: 150px;
+    height: 150px;
+    margin: 385px 0px 0px -135px;
+}
+
+.c3{
+    height: 125px;
+    width: 250px;
+    border-radius: 125px 125px 0 0;
+    margin: 185px 0px 0px 0px;
+}
+
+.c4{
+    height: 150px;
+    width: 300px;
+    border-radius: 150px 150px 0 0;
+    margin: -149px 0px 0px 620px;
 }
 
 .indextxt{
     font-size: 105px;
     float: left;
+    margin-top: 45px;
+    margin-left: 80px;
 }
 
 .digitaltxt{
-    color: #2F7700;
+    background: linear-gradient(303deg, #d38400, #f70034);
+    -webkit-animation: AnimationName 1s ease infinite;
+    -moz-animation: AnimationName 1s ease infinite;
+    animation: AnimationName 1s ease infinite;
     font-family: 'mcgeo';
     letter-spacing: 45px;
-}
-
-.indeximg{
-    width: 680px;
-    height: auto;
-    float: right;
-    margin-top: 80px;
-}
-
-.indeximgm{
-    display: none;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .start{
-    width: 930px;
-    height: 164px;
-    font-family: 'main';
-    font-size: 60px;
-    color: white;
-    background-color: black;
-    border: none;
-    float: left;
+    width: 600px;
+    height: 1005px;
+    background: linear-gradient(122deg, #d38400, #f70034);
+    -webkit-animation: AnimationName 1s ease infinite;
+    -moz-animation: AnimationName 1s ease infinite;
+    animation: AnimationName 1s ease infinite;
+    float: right;
     cursor: pointer;
-    margin-bottom: 40px;
 }
 
 .start:hover{
-    box-shadow: 15px 15px 0px #D3D3D3;
-    transition: 0.2s;
+    background: linear-gradient(303deg, #d38400, #f70034);
+    -webkit-animation: AnimationName 1s ease infinite;
+    -moz-animation: AnimationName 1s ease infinite;
+    content: "მოგზაურობის დაწყება";
+    transition: 0.5s; 
 }
 
-@media (max-width:1675px){
-    .indextxt{
-        font-size: 90px;
-    }
-    .indeximg{
-        width: 580px;
-        margin-top: 80px;
-    }
-    .start{
-        width: 800px;
-        height: 164px;
-        font-size: 55px;
-    }
+.startarrow{
+    margin-top:400px;
 }
 
-@media (max-width:1475px){
-    .indextxt{
-        font-size: 75px;
-    }
-    .indeximg{
-        width: 500px;
-        margin-top: 80px;
-    }
-    .start{
-        width: 750px;
-        height: 164px;
-        font-size: 50px;
-    }
+.j4{
+    height: 50px;
+    width: auto;
+    filter: invert(100%) sepia(78%) saturate(3234%) hue-rotate(204deg) brightness(147%) contrast(120%);
+    float: right;
+    margin: 25px 15px 0px 0px;
 }
 
-@media (max-width:1275px){
-    .indextxt{
-        margin-top: 90px;
-        font-size: 60px;
+.starttxt{
+    display: none;
+}
+
+@media only screen and (min-width: 400px) {
+    .startarrow{
+        display: none;
     }
-    .indeximg{
-        width: 450px;
-        margin-top: 80px;
+    .j4{
+        height: 50px;
+        margin-left: -65px;
     }
-    .start{
-        width: 850px;
+    .container{
+        width: 1000px;
+    }
+    .indextxt {
+        margin-left: 30px;
+        margin-right: 15px;
+    }
+    .c2{
+        width: 200px;
         height: 200px;
-        font-size: 55px;
+        margin: 689px 0px 0px -65px;
+    }
+    .c3 {
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        margin: -206px 0px 0px 657px;
+    }
+    .c4 {
+        height: 230px;
+        width: 230px;
+        border-radius: 50%;
+        margin: -136px 0px 0px 332px;
+    }
+    .start {
+        width: 900px;
+        height: 180px;
+        background: black;
+        margin: 1197px 50px 0px -943px;
+        margin-bottom: 25px;
+    }
+    .starttxt{
+        display: block;
+        color: white;
+        font-family: 'main', sans-serif;
+        font-size: 45px;
+        line-height: 120px;
     }
 }
 
-@media (max-width:1075px){
-    .indextxt{
-        margin-top: 170px;
-        font-size: 95px;
-        display: inline-block;
+@media only screen and (min-width: 1200px) {
+    .startarrow{
+        display: block;
     }
-    .indeximg{
+    .container{
+        width: 1000px;
+    }
+    .indextxt {
+        margin-left: 30px;
+        margin-right: 15px;
+    }
+    .c2{
+        width: 150px;
+        height: 150px;
+        margin: 385px 0px 0px -135px;
+    }
+    .c3{
+        height: 125px;
+        width: 250px;
+        border-radius: 125px 125px 0 0;
+        margin: 185px 0px 0px 0px;
+    }
+
+    .c4{
+        height: 150px;
+        width: 300px;
+        border-radius: 150px 150px 0 0;
+        margin: -149px 0px 0px 620px;
+    }
+    .start {
+        width: 600px;
+        height: 1005px;
+        background: linear-gradient(146deg, #eeb503, #f70034);
+        -webkit-animation: AnimationName 1s ease infinite;
+        -moz-animation: AnimationName 1s ease infinite;
+        animation: AnimationName 1s ease infinite;
+        float: right;
+        cursor: pointer;
+        margin:0;
+    }
+    .starttxt{
         display: none;
     }
-    .digitaltxt{
-        letter-spacing: 30px;
-    }
-
-@media (max-width:735px){
-    .indextxt{
-        margin-top: 90px;
-        font-size: 54px;
-        display: inline-block;
-    }
-    .indeximgm{
-        display: none;
-    }
-    .digitaltxt{
-        letter-spacing: 30px;
-    }
-    .start{
-        width: 470px;
-        height: 124px;
-        font-size: 40px;
-    }
 }
 
-@media (max-width:495px){
-    .indextxt{
-        width: 270px;
-        margin-top: 90px;
-        font-size: 30px;
-        display: inline-block;
-    }
-    .digitaltxt{
-        letter-spacing: 20px;
-    }
-    .start{
-        width: 270px;
-        height: 124px;
-        font-size: 25px;
-    }
-}
 
-@media (max-width:360px){
-    .indextxt{
-        width: 170px;
-        margin-top: 90px;
-        font-size: 20px;
-        display: inline-block;
-    }
-    .digitaltxt{
-        letter-spacing: 20px;
-    }
-    .start{
-        width: 170px;
-        height: 84px;
-        font-size: 13px;
-    }
-}
-
-@media (max-width:250px){
-    .indextxt{
-        width: 80px;
-        margin-top: 90px;
-        font-size: 12px;
-        display: inline-block;
-    }
-    .digitaltxt{
-        letter-spacing: 5px;
-    }
-    .start{
-        width: 80px;
-        height: 25px;
-        font-size: 8px;
-    }
-}
