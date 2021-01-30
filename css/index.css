@@ -1,0 +1,183 @@
+.circle {
+    background-color: #bbb;
+    border-radius: 50%;
+    background: linear-gradient(303deg, #d38400, #f70034);
+    -webkit-animation: AnimationName 1s ease infinite;
+    -moz-animation: AnimationName 1s ease infinite;
+    animation: AnimationName 1s ease infinite;
+    display: block;
+}
+
+.c1{
+    width: 300px;
+    height: 300px;
+    margin: -230px 0px 0px -140px;
+}
+
+.c2{
+    width: 150px;
+    height: 150px;
+    margin: 385px 0px 0px -135px;
+}
+
+.c3{
+    height: 125px;
+    width: 250px;
+    border-radius: 125px 125px 0 0;
+    margin: 185px 0px 0px 0px;
+}
+
+.c4{
+    height: 150px;
+    width: 300px;
+    border-radius: 150px 150px 0 0;
+    margin: -149px 0px 0px 620px;
+}
+
+.indextxt{
+    font-size: 105px;
+    float: left;
+    margin-top: 45px;
+    margin-left: 80px;
+}
+
+.digitaltxt{
+    background: linear-gradient(303deg, #d38400, #f70034);
+    -webkit-animation: AnimationName 1s ease infinite;
+    -moz-animation: AnimationName 1s ease infinite;
+    animation: AnimationName 1s ease infinite;
+    font-family: 'mcgeo';
+    letter-spacing: 45px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.start{
+    width: 600px;
+    height: 1005px;
+    background: linear-gradient(122deg, #d38400, #f70034);
+    -webkit-animation: AnimationName 1s ease infinite;
+    -moz-animation: AnimationName 1s ease infinite;
+    animation: AnimationName 1s ease infinite;
+    float: right;
+    cursor: pointer;
+}
+
+.start:hover{
+    background: linear-gradient(303deg, #d38400, #f70034);
+    -webkit-animation: AnimationName 1s ease infinite;
+    -moz-animation: AnimationName 1s ease infinite;
+    content: "მოგზაურობის დაწყება";
+    transition: 0.5s; 
+}
+
+.startarrow{
+    margin-top:400px;
+}
+
+.j4{
+    height: 50px;
+    width: auto;
+    filter: invert(100%) sepia(78%) saturate(3234%) hue-rotate(204deg) brightness(147%) contrast(120%);
+    float: right;
+    margin: 25px 15px 0px 0px;
+}
+
+.starttxt{
+    display: none;
+}
+
+@media only screen and (min-width: 400px) {
+    .startarrow{
+        display: none;
+    }
+    .j4{
+        height: 50px;
+        margin-left: -65px;
+    }
+    .container{
+        width: 1000px;
+    }
+    .indextxt {
+        margin-left: 30px;
+        margin-right: 15px;
+    }
+    .c2{
+        width: 200px;
+        height: 200px;
+        margin: 689px 0px 0px -65px;
+    }
+    .c3 {
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        margin: -206px 0px 0px 657px;
+    }
+    .c4 {
+        height: 230px;
+        width: 230px;
+        border-radius: 50%;
+        margin: -136px 0px 0px 332px;
+    }
+    .start {
+        width: 900px;
+        height: 180px;
+        background: black;
+        margin: 1197px 50px 0px -943px;
+        margin-bottom: 25px;
+    }
+    .starttxt{
+        display: block;
+        color: white;
+        font-family: 'main', sans-serif;
+        font-size: 45px;
+        line-height: 120px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .startarrow{
+        display: block;
+    }
+    .container{
+        width: 1000px;
+    }
+    .indextxt {
+        margin-left: 30px;
+        margin-right: 15px;
+    }
+    .c2{
+        width: 150px;
+        height: 150px;
+        margin: 385px 0px 0px -135px;
+    }
+    .c3{
+        height: 125px;
+        width: 250px;
+        border-radius: 125px 125px 0 0;
+        margin: 185px 0px 0px 0px;
+    }
+
+    .c4{
+        height: 150px;
+        width: 300px;
+        border-radius: 150px 150px 0 0;
+        margin: -149px 0px 0px 620px;
+    }
+    .start {
+        width: 600px;
+        height: 1005px;
+        background: linear-gradient(146deg, #eeb503, #f70034);
+        -webkit-animation: AnimationName 1s ease infinite;
+        -moz-animation: AnimationName 1s ease infinite;
+        animation: AnimationName 1s ease infinite;
+        float: right;
+        cursor: pointer;
+        margin:0;
+    }
+    .starttxt{
+        display: none;
+    }
+}
+
+
