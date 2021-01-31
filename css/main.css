@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'main';
+    src: url(fonts/mainfont.ttf);
+}
+
+@font-face {
+    font-family: 'mcgeo';
+    src: url(fonts/mcgeo.ttf);
+}
+
+@font-face {
+    font-family: 'helvetica';
+    src: url(fonts/helvetica.ttf);
+}
+
+.container{
+    margin-top: 90px;
+    width: 1670px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: black; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #333333; 
+}
+
+::selection {
+    background: #f70034;
+    color: white;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;    
+}
