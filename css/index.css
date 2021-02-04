@@ -12,13 +12,6 @@
     transition: 0.5s;
 }
 
-.container{
-    margin-top: 90px;
-    width: 1050px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .indextxt{
     font-size: 105px;
     float: left;
