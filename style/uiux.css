@@ -1,0 +1,27 @@
+.wine{
+    background: url("assets/media/uiux/wine.gif");
+    background-size: cover;
+    background-position: 50% 50%;
+    display: inline-block;
+}
+
+.mbank{
+    background: url("assets/media/uiux/mbank-01.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    display: inline-block;
+}
+
+.transfer{
+    background: url("assets/media/uiux/landingpage-02-01.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    display: inline-block;
+}
+
+.sante{
+    background: url("assets/media/uiux/sante-01.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    display: inline-block;
+}
