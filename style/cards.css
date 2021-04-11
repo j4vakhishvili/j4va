@@ -1,0 +1,348 @@
+body{
+    background: #040634;
+    cursor: url(cursors/mouse.png), pointer;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1500px;
+}
+
+.animate__animated {
+    animation-fill-mode: none;
+}
+
+header{
+    position: fixed;
+    width: 1500px;
+}
+
+.gobck {
+    height: 22px;
+    padding: 16px 10px 16px 10px;
+    border-radius: 15px;
+    filter: invert(100%);
+    background: #31313130;
+    margin-top: 40px;
+    float: right;
+    cursor: url(cursors/smooth-x.png), pointer;
+}
+
+.logo{
+    width: 40px;
+    margin-top: 40px;
+    margin-left: 30px;
+    cursor: url(cursors/smooth-x.png), pointer;
+    float: right;
+}
+
+.cardslogo {
+    height: 450px;
+    margin-top: 60px;
+}
+
+.mock1{
+    width: 960px;
+    float: right;
+    display: inline-block;
+    margin-top: 60px;
+    z-index: unset;
+}
+
+.try{
+    font-family: 'crystalm', sans-serif;
+    width: 520px;
+    height: 120px;
+    display: block;
+    margin-top: 150px;
+    font-size: 25px;
+    border: 5px solid white;
+    border-radius: 20px;
+    background: linear-gradient(150deg, #b20033, #230a38);
+    color: white;
+    cursor: url(cursors/smooth-x.png), pointer;
+}
+
+.try:focus{
+    outline: none;
+}
+
+.try:hover{
+    box-shadow: 0px 0px 60px #970235;
+    transition: 0.3s;
+}
+
+.mockups{
+    margin-top: 50px;
+    width: 100%;
+    height: 800px;
+    background-color: #eaeaf2;
+}
+
+.mock2{
+    height: 450px;
+    margin-top: 20px;
+    float: left;
+}
+
+.mock3{
+    height: 320px;
+}
+
+.mock4{
+    height: 420px;
+    float: right;
+}
+
+.up1{
+    margin-top: 420px;
+    margin-left: -170px;
+    float: left;
+}
+
+.up2{
+    float: left;
+    display: inline-block;
+    margin-left: -140px;
+    margin-top: 40px;
+}
+
+.up3{
+   float: right;
+}
+
+.joker{
+    height: 700px;
+    margin-top: -130px;
+    float: left;
+}
+
+.aces{
+    height: 700px;
+    float: right;
+    margin-top: -50px;
+}
+
+.neonicons{
+    height: 200px;
+    margin-left: -60px;
+}
+
+.neontext{
+    height: 330px;
+    margin-top: -80px;
+    margin-left: -60px;
+}
+
+.cardstyles{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.mockbg{
+    background: url(assets/cards/bgmockup.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    display: inline-block;
+    width: 100%;
+    height: 900px;
+}
+
+.blank{
+    height: 250px;
+}
+
+#navbar{
+    width: 100%;
+    height: 140px;
+    position: fixed;
+    float: left;
+}
+
+.goupimg{
+    height: 19px;
+    filter: invert(100%);
+    transform: rotate(90deg);
+}
+
+#mybtn {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color:  #31313130;
+    color: white;
+    cursor: url(cursors/smooth-x.png), pointer;
+    padding: 15px;
+    border-radius: 15px;
+  }
+  
+  #mybtn:hover {
+    background-color: #860026;
+  }
+
+  @media only screen and (max-width: 1580px){
+    .wrapper {
+        width: 1200px;
+    }
+    
+    header{
+        width: 1200px;
+    }
+    .mock1 {
+        width: 780px;
+    }
+    .cardslogo {
+        height: 350px;
+    }
+    .try{
+        width: 390px;
+        margin-top: 120px;
+    }
+    .mock2{
+        height: 400px;
+        margin-left: -150px;   
+    }
+    .up1{
+        margin-left: -220px;
+    }
+    .joker {
+        height: 500px;
+        margin-left: -50px;
+    }
+    .aces {
+        height: 500px;
+    }
+    .neonicons {
+        height: 190px;
+    }
+    .neontext {
+        height: 310px;
+    }
+  }
+
+  @media only screen and (max-width: 1250px){
+    .wrapper {
+        width: 1000px;
+    }
+    
+    header{
+        width: 1000px;
+    }
+    .mock1 {
+        width: 630px;
+    }
+    .cardslogo {
+        height: 300px;
+    }
+    .try{
+        width: 350px;
+        margin-top: 50px;
+    }
+    .mock2{
+        height: 400px;
+        margin-left: -200px;   
+    }
+    .mock3 {
+        height: 300px;
+    }
+    .mock4 {
+        height: 350px;
+    }
+    .up1{
+        margin-left: -220px;
+    }
+    .joker {
+        height: 500px;
+        margin-left: -50px;
+        margin-top: -100px;
+    }
+    .aces {
+        height: 500px;
+        margin-top: -90px;
+    }
+    .neonicons {
+        height: 150px;
+        display: block;
+    }
+    .neontext {
+        height: 250px;
+    }
+    .mockbg{
+        height: 700px;
+    }
+  }
+
+  @media only screen and (max-width: 1110px){
+    .wrapper {
+        width: 800px;
+    }
+    
+    header{
+        width: 800px;
+    }
+    .mock1 {
+        width: 500px;
+        margin-left: -60px;
+    }
+    .cardslogo {
+        height: 235px;
+    }
+    .try{
+        width: 350px;
+        margin-top: 40px;
+    }
+    .mock2{
+        height: 350px;
+        margin-left: -175px;
+    }
+    .mock3 {
+        height: 270px;
+        margin-top: 310px;
+    }
+    .mock4 {
+        height: 280px;
+        margin-top: -20px;
+    }
+    .up1{
+        margin-left: -285px;
+        margin-top: 310px;
+    }
+    .up2{
+        margin-left: -55px;
+        margin-top: 40px;
+    }
+    .up3{
+        margin-right: -90px;
+        margin-top: 70px;
+    }
+    .mockups{
+        height: 600px;
+    }
+    .joker {
+        height: 420px;
+        margin-left: -105px;
+        margin-top: -50px;
+    }
+    .aces {
+        height: 420px;
+        margin-top: -50px;
+    }
+    .neonicons {
+        height: 120px;
+    }
+    .neontext {
+        height: 205px;
+    }
+    .mockbg{
+        height: 600px;
+    }
+    .blank{
+        height: 230px;
+    }
+  }

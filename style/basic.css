@@ -18,6 +18,21 @@
     src: url(fonts/helvetica.ttf);
 }
 
+@font-face {
+  font-family: 'crystalm';
+  src: url(fonts/CrystalM.ttf);
+}
+
+@font-face {
+  font-family: 'cristalb';
+  src: url(fonts/CrystalB.ttf);
+}
+
+@font-face {
+  font-family: 'crostalmtavb';
+  src: url(fonts/CrystalMTB.ttf);
+}
+
 ::-webkit-scrollbar {
     width: 12px;
   }
