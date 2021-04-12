@@ -1,0 +1,1098 @@
+body{
+    background-color: rgb(15, 15, 15);
+}
+
+header{
+    width: 140px;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    z-index: 11111;
+}
+
+.home{
+    width: 60px;
+    padding: 40px;
+    display: block;
+    cursor: url(cursors/smooth-x.png), pointer;
+}
+
+.darkmode{
+    bottom: 0px;
+    padding: 40px;
+    position: fixed;
+    cursor: url(cursors/smooth-x.png), pointer;
+}
+
+.dmico{
+    width: 60px;
+}
+
+.main{
+    margin-left: 180px;
+}
+
+h1{
+    margin-block-start: 0;
+    margin-block-end: 0.7em;
+    font-family: 'olney', sans-serif;
+    font-size: 50px;
+}
+
+.card{
+    width: 360px;
+    height: 495px;
+    background: linear-gradient(150deg, rgba(240, 190, 4, 1), rgba(237, 2, 50, 1));;
+    border-radius: 50px;
+    display: inline-block;
+    margin-right: 50px;
+    cursor: url(cursors/smooth-x.png), pointer;
+}
+
+.cardthumb{
+    width: 360px;
+    height: 495px;
+    display: none;
+    border-radius: 48px;
+    background: url(cards/bruh.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.ps{
+    background: url(cards/photoshop.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.ph{
+    background: url(cards/photography.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.il{
+    background: url(cards/illustration.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.ui{
+    background: url(cards/uiux.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.card:hover .cardthumb{
+   display: block;
+   transition: 0.3s;
+}
+
+.title{
+    position: absolute;
+    font-family: 'olney', sans-serif;
+    padding-top: 400px;
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+.brandbook{
+    background: linear-gradient(320deg, rgba(240, 190, 4, 1), rgba(237, 2, 50, 1));;
+    margin-top: 40px;
+    width: 1600px;
+    height: 230px;
+}
+
+.bbtitle{
+    position: absolute;
+    font-family: 'olney', sans-serif;
+    padding-top: 125px;
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+.bbcardthumb{
+    width: 1600px;
+    height: 230px;
+    border-radius: 48px;
+    background: url(cards/brandbook.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    display: none;
+}
+
+.cards{
+    background: url(cards/playing\ cards.png);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.brandbook:hover .bbcardthumb{
+    display: block;
+    transition: 0.3s;
+ }
+
+ button:focus{
+    outline: none;
+  }
+
+  .container{
+    padding-top: 30px;
+    width: 1600px;
+}
+
+
+@media only screen and (max-width: 1850px){
+    h1{
+        font-size: 45px;
+    }
+
+    .card{
+        width: 320px;
+        margin-right: 35px;
+        height: 420px;
+        border-radius: 45px;
+    }
+
+    .cardthumb{
+        width: 320px;
+        height: 420px;
+        border-radius: 43px;
+    }
+
+    .title{
+        padding-top: 325px;
+    }
+
+    .brandbook{
+        margin-top: 20px;
+        width: 1400px;
+        height: 230px;
+    }
+
+    .bbcardthumb{
+        width: 1400px;
+        height: 230px;
+        border-radius: 43px;
+    }
+
+    .container{
+        width: 1400px;
+    }
+}
+
+@media only screen and (max-width: 1630px){
+    h1{
+        font-size: 35px;
+    }
+
+    .card{
+        width: 280px;
+        margin-right: 20px;
+        height: 370px;
+        border-radius: 45px;
+    }
+
+    .cardthumb{
+        width: 280px;
+        height: 370px;
+        border-radius: 43px;
+    }
+
+    .title{
+        padding-top: 270px;
+    }
+
+    .brandbook{
+        margin-top: 20px;
+        width: 1200px;
+        height: 230px;
+    }
+
+    .bbcardthumb{
+        width: 1200px;
+        height: 230px;
+        border-radius: 43px;
+    }
+
+    .container{
+        width: 1200px;
+    }
+}
+
+@media only screen and (max-width: 1420px){
+    h1{
+        font-size: 35px;
+    }
+
+    .card{
+        width: 250px;
+        margin-right: 15px;
+        height: 320px;
+        border-radius: 45px;
+    }
+
+    .cardthumb{
+        width: 250px;
+        height: 320px;
+        border-radius: 43px;
+    }
+
+    .title{
+        padding-top: 240px;
+        font-size: 25px;
+    }
+
+    .brandbook{
+        margin-top: 20px;
+        width: 1060px;
+        height: 200px;
+    }
+
+    .bbtitle{
+        padding-top: 120px;
+        font-size: 25px;
+    }
+
+    .bbcardthumb{
+        width: 1060px;
+        height: 200px;
+        border-radius: 43px;
+    }
+
+    .container{
+        width: 1060px;
+    }
+}
+
+@media only screen and (max-width: 1300px){
+    .ps{
+        background: url(cards/photoshop.png);
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    
+    .ph{
+        background: url(cards/photography.png);
+        background-size: cover;
+        background-position: 50% 30%;
+    }
+    
+    .il{
+        background: url(cards/illustration.png);
+        background-size: cover;
+        background-position: 50% 10%;
+    }
+    
+    .ui{
+        background: url(cards/uiux.png);
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    h1{
+        font-size: 28px;
+    }
+
+    .card{
+        width: 435px;
+        margin-right: 20px;
+        height: 220px;
+        border-radius: 45px;
+        margin-bottom: 20px;
+    }
+
+    .cardthumb{
+        width: 435px;
+        height: 220px;
+        border-radius: 43px;
+    }
+
+    .title{
+        padding-top: 130px;
+        font-size: 25px;
+    }
+
+    .brandbook{
+        margin-top: 0px;
+        width: 900px;
+        height: 200px;
+    }
+
+    .bbtitle{
+        padding-top: 120px;
+        font-size: 25px;
+    }
+
+    .bbcardthumb{
+        width: 900px;
+        height: 200px;
+        border-radius: 43px;
+    }
+
+    .container{
+        width: 900px;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .ps{
+        background: url(cards/photoshop.png);
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    
+    .ph{
+        background: url(cards/photography.png);
+        background-size: cover;
+        background-position: 50% 30%;
+    }
+    
+    .il{
+        background: url(cards/illustration.png);
+        background-size: cover;
+        background-position: 50% 10%;
+    }
+    
+    .ui{
+        background: url(cards/uiux.png);
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    h1{
+        font-size: 30px;
+    }
+
+    .card{
+        width: 600px;
+        margin-right: 20px;
+        height: 220px;
+        border-radius: 45px;
+        margin-bottom: 20px;
+    }
+
+    .cardthumb{
+        width: 600px;
+        height: 220px;
+        border-radius: 43px;
+    }
+
+    .title{
+        padding-top: 100px;
+        font-size: 40px;
+    }
+
+    .brandbook{
+        margin-top: 0px;
+        width: 600px;
+        height: 220px;
+    }
+
+    .bbtitle{
+        padding-top: 100px;
+        font-size: 40px;
+    }
+
+    .bbcardthumb{
+        width: 600px;
+        height: 220px;
+        border-radius: 43px;
+    }
+
+    .container{
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width: 820px){
+    .ps{
+        background: url(cards/photoshop.png);
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    
+    .ph{
+        background: url(cards/photography.png);
+        background-size: cover;
+        background-position: 50% 30%;
+    }
+    
+    .il{
+        background: url(cards/illustration.png);
+        background-size: cover;
+        background-position: 50% 10%;
+    }
+    
+    .ui{
+        background: url(cards/uiux.png);
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    header{
+        height: 150px;
+        width: 100%;
+        z-index: 1;
+    }
+    .blank{
+        display: block;
+        height: 130px;
+    }
+
+    .home{
+        display: inline-block;
+    }
+
+    .darkmode{
+        position: relative;
+        float: right;
+    }
+
+    .main{
+        margin-left: 70px;
+    }
+    h1{
+        font-size: 30px;
+    }
+
+    .card{
+        width: 600px;
+        margin-right: 20px;
+        height: 220px;
+        border-radius: 45px;
+        margin-bottom: 20px;
+        background: none;
+    }
+
+    .cardthumb{
+        width: 600px;
+        height: 220px;
+        border-radius: 43px;
+        display: block;
+    }
+
+    .title{
+        padding-top: 100px;
+        font-size: 40px;
+    }
+
+    .brandbook{
+        margin-top: 0px;
+        width: 600px;
+        height: 220px;
+    }
+
+    .bbtitle{
+        padding-top: 100px;
+        font-size: 40px;
+    }
+
+    .bbcardthumb{
+        width: 600px;
+        height: 220px;
+        border-radius: 43px;
+        display: block;
+    }
+
+    .container{
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width: 730px){
+    .ps{
+        background: url(cards/photoshop.png);
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    
+    .ph{
+        background: url(cards/photography.png);
+        background-size: cover;
+        background-position: 50% 30%;
+    }
+    
+    .il{
+        background: url(cards/illustration.png);
+        background-size: cover;
+        background-position: 50% 10%;
+    }
+    
+    .ui{
+        background: url(cards/uiux.png);
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    header{
+        height: 150px;
+        width: 100%;
+        z-index: 1;
+    }
+    .blank{
+        display: block;
+        height: 130px;
+    }
+
+    .home{
+        display: inline-block;
+    }
+
+    .darkmode{
+        position: relative;
+        float: right;
+    }
+
+    .main{
+        margin-left: 70px;
+    }
+    h1{
+        font-size: 20px;
+    }
+
+    .card{
+        width: 400px;
+        margin-right: 20px;
+        height: 220px;
+        border-radius: 45px;
+        margin-bottom: 20px;
+    }
+
+    .cardthumb{
+        width: 400px;
+        height: 220px;
+        border-radius: 43px;
+    }
+
+    .title{
+        padding-top: 100px;
+        font-size: 40px;
+    }
+
+    .brandbook{
+        margin-top: 0px;
+        width: 400px;
+        height: 220px;
+    }
+
+    .bbtitle{
+        padding-top: 100px;
+        font-size: 40px;
+    }
+
+    .cbtitle{
+        padding-top: 125px;
+        font-size: 32px;
+    }
+
+    .bbcardthumb{
+        width: 400px;
+        height: 220px;
+        border-radius: 43px;
+    }
+
+    .container{
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 530px){
+    .ps{
+        background: url(cards/photoshop.png);
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    
+    .ph{
+        background: url(cards/photography.png);
+        background-size: cover;
+        background-position: 50% 30%;
+    }
+    
+    .il{
+        background: url(cards/illustration.png);
+        background-size: cover;
+        background-position: 50% 10%;
+    }
+    
+    .ui{
+        background: url(cards/uiux.png);
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    header{
+        height: 150px;
+        width: 100%;
+        z-index: 1;
+    }
+    .blank{
+        display: block;
+        height: 130px;
+    }
+
+    .home{
+        display: inline-block;
+    }
+
+    .darkmode{
+        position: relative;
+        float: right;
+    }
+
+    .main{
+        margin-left: 70px;
+    }
+    h1{
+        font-size: 18px;
+    }
+
+    .card{
+        width: 370px;
+        margin-right: 20px;
+        height: 160px;
+        border-radius: 45px;
+        margin-bottom: 20px;
+    }
+
+    .cardthumb{
+        width: 370px;
+        height: 160px;
+        border-radius: 43px;
+    }
+
+    .title{
+        padding-top: 70px;
+        font-size: 30px;
+    }
+
+    .brandbook{
+        margin-top: 0px;
+        width: 370px;
+        height: 160px;
+    }
+
+    .bbtitle{
+        padding-top: 70px;
+        font-size: 30px;
+    }
+
+    .cbtitle{
+        padding-top: 90px;
+        font-size: 22px;
+    }
+
+    .bbcardthumb{
+        width: 370px;
+        height: 160px;
+        border-radius: 43px;
+    }
+
+    .container{
+        width: 360px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .ps{
+        background: url(cards/photoshop.png);
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    
+    .ph{
+        background: url(cards/photography.png);
+        background-size: cover;
+        background-position: 50% 30%;
+    }
+    
+    .il{
+        background: url(cards/illustration.png);
+        background-size: cover;
+        background-position: 50% 10%;
+    }
+    
+    .ui{
+        background: url(cards/uiux.png);
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    header{
+        height: 150px;
+        width: 100%;
+        z-index: 1;
+    }
+    .blank{
+        display: block;
+        height: 130px;
+    }
+
+    .home{
+        display: inline-block;
+    }
+
+    .darkmode{
+        position: relative;
+        float: right;
+    }
+
+    .main{
+        margin-left: 70px;
+    }
+    h1{
+        font-size: 18px;
+    }
+
+    .card{
+        width: 300px;
+        margin-right: 20px;
+        height: 160px;
+        border-radius: 45px;
+        margin-bottom: 20px;
+    }
+
+    .cardthumb{
+        width: 300px;
+        height: 160px;
+        border-radius: 43px;
+    }
+
+    .title{
+        padding-top: 70px;
+        font-size: 30px;
+    }
+
+    .brandbook{
+        margin-top: 0px;
+        width: 300px;
+        height: 160px;
+    }
+
+    .bbtitle{
+        padding-top: 70px;
+        font-size: 30px;
+    }
+
+    .cbtitle{
+        padding-top: 90px;
+        font-size: 22px;
+    }
+
+    .bbcardthumb{
+        width: 300px;
+        height: 160px;
+        border-radius: 43px;
+    }
+
+    .container{
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .ps{
+        background: url(cards/photoshop.png);
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    
+    .ph{
+        background: url(cards/photography.png);
+        background-size: cover;
+        background-position: 50% 30%;
+    }
+    
+    .il{
+        background: url(cards/illustration.png);
+        background-size: cover;
+        background-position: 50% 10%;
+    }
+    
+    .ui{
+        background: url(cards/uiux.png);
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    header{
+        height: 80px;
+        width: 100%;
+        z-index: 1;
+    }
+    .blank{
+        display: block;
+        height: 70px;
+    }
+
+    .home{
+        width: 40px;
+        display: inline-block;
+        padding: 15px;
+    }
+
+    .darkmode{
+        float: right;
+        padding: 15px;
+    }
+
+    .dmico{
+        width: 50px;
+    }
+
+    .main{
+        margin-left: 30px;
+    }
+    h1{
+        font-size: 18px;
+    }
+
+    .card{
+        width: 380px;
+        margin-right: 20px;
+        height: 150px;
+        border-radius: 30px;
+        margin-bottom: 10px;
+    }
+
+    .cardthumb{
+        width: 380px;
+        height: 150px;
+        border-radius: 28px;
+    }
+
+    .title{
+        padding-top: 80px;
+        font-size: 22px;
+    }
+
+    .brandbook{
+        margin-top: 0px;
+        width: 380px;
+        height: 150px;
+    }
+
+    .bbtitle{
+        padding-top: 80px;
+        font-size: 22px;
+    }
+
+    .bbcardthumb{
+        width: 380px;
+        height: 150px;
+        border-radius: 28px;
+    }
+
+    .container{
+        width: 430px;
+    }
+    .icon{
+        width: 40px;
+        padding: 10px;
+        margin-right: 0px;
+    }
+    .main {
+        width: 380px;
+    }
+}
+
+@media only screen and (max-width: 430px){
+    header{
+        height: 80px;
+        width: 100%;
+        z-index: 1;
+    }
+    .blank{
+        display: block;
+        height: 70px;
+    }
+
+    .home{
+        display: inline-block;
+        padding: 15px;
+    }
+
+    .darkmode{
+        float: right;
+        padding: 15px;
+    }
+
+    .main{
+        margin-left: 20px;
+    }
+    h1{
+        font-size: 18px;
+    }
+
+    .card{
+        width: 360px;
+        margin-right: 20px;
+        height: 150px;
+        border-radius: 30px;
+        margin-bottom: 10px;
+    }
+
+    .cardthumb{
+        width: 360px;
+        height: 150px;
+        border-radius: 28px;
+    }
+
+    .title{
+        padding-top: 80px;
+        font-size: 22px;
+    }
+
+    .brandbook{
+        margin-top: 0px;
+        width: 360px;
+        height: 150px;
+    }
+
+    .bbtitle{
+        padding-top: 80px;
+        font-size: 22px;
+    }
+
+    .bbcardthumb{
+        width: 360px;
+        height: 150px;
+        border-radius: 28px;
+    }
+
+    .container{
+        width: 360px;
+    }
+}
+
+@media only screen and (max-width: 380px){
+    header{
+        height: 80px;
+        width: 100%;
+        z-index: 1;
+    }
+    .blank{
+        display: block;
+        height: 70px;
+    }
+
+    .home{
+        display: inline-block;
+        padding: 15px;
+    }
+
+    .darkmode{
+        float: right;
+        padding: 15px;
+    }
+
+    .main{
+        margin-left: 20px;
+    }
+    h1{
+        font-size: 18px;
+    }
+
+    .card{
+        width: 320px;
+        margin-right: 20px;
+        height: 150px;
+        border-radius: 30px;
+        margin-bottom: 10px;
+    }
+
+    .cardthumb{
+        width: 320px;
+        height: 150px;
+        border-radius: 28px;
+    }
+
+    .title{
+        padding-top: 80px;
+        font-size: 22px;
+    }
+
+    .brandbook{
+        margin-top: 0px;
+        width: 320px;
+        height: 150px;
+    }
+
+    .bbtitle{
+        padding-top: 80px;
+        font-size: 22px;
+    }
+
+    .bbcardthumb{
+        width: 320px;
+        height: 150px;
+        border-radius: 28px;
+    }
+
+    .container{
+        width: 320px;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    header{
+        height: 80px;
+        width: 100%;
+        z-index: 1;
+    }
+    .blank{
+        display: block;
+        height: 70px;
+    }
+
+    .home{
+        display: inline-block;
+        padding: 15px;
+    }
+
+    .darkmode{
+        float: right;
+        padding: 15px;
+    }
+
+    .main{
+        margin-left: 20px;
+    }
+    h1{
+        font-size: 15px;
+    }
+
+    .card{
+        width: 270px;
+        margin-right: 20px;
+        height: 150px;
+        border-radius: 30px;
+        margin-bottom: 10px;
+    }
+
+    .cardthumb{
+        width: 270px;
+        height: 150px;
+        border-radius: 28px;
+    }
+
+    .title{
+        padding-top: 80px;
+        font-size: 22px;
+    }
+
+    .brandbook{
+        margin-top: 0px;
+        width: 270px;
+        height: 150px;
+    }
+
+    .bbtitle{
+        padding-top: 80px;
+        font-size: 22px;
+    }
+
+    .bbcardthumb{
+        width: 270px;
+        height: 150px;
+        border-radius: 28px;
+    }
+
+    .container{
+        width: 270px;
+    }
+}
