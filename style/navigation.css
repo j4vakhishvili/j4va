@@ -1,0 +1,252 @@
+header {
+    margin-top: 50px;
+}
+
+.container {
+    width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    font-size: 3.6em;
+    color: white;
+    font-family: 'main', sans-serif;
+    width: 495px;
+    height: 75px;
+    padding: 15px;
+    background-color: #070707;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+[data-theme="dark"] .logo {
+    color: #070707;
+    background-color: white;
+}
+
+.logo:hover {
+    background-color: #FFD400;
+    transition: 0.3s;
+}
+
+.logodesc {
+    font-size: 1.6em;
+    color: #070707;
+    font-family: 'main', sans-serif;
+    text-align: center;
+    width: 495px;
+    margin-block-start: 0.7em;
+}
+
+[data-theme="dark"] .logodesc {
+    color: #dfdbdb;
+}
+
+.logocont {
+    width: 500px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu {
+    width: 85px;
+    cursor: pointer;
+    float: right;
+    margin-top: -115px;
+}
+
+[data-theme="dark"] .menu {
+    filter: invert(90%);
+}
+
+#navbar {
+    background-color: #111111;
+    position: fixed;
+    top: -120px;
+    width: 100%;
+    height: 105px;;
+    display: block;
+    transition: top 0.3s;
+    z-index: 99;
+}
+
+#navbar .menu {
+    margin-top: 0px;
+    filter: invert(90%);
+    width: 70px;
+    padding: 10px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color: #d2af01ed;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center;
+}
+
+[data-theme="dark"] .sidenav {
+    background-color: #ffd400d1
+}
+
+.sidenav a {
+    padding: 15px 8px 15px 32px;
+    text-decoration: none;
+    font-size: 3em;
+    font-family: 'main', sans-serif;
+    color: #070707;
+    display: block;
+    transition: 0.3s;
+
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+    background-color: #FFD400;
+}
+
+.on {
+    background-color: #FFD400;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 2.4em;
+    margin-left: 50px;
+}
+
+.closebtn {
+    padding: 30px;
+    width: 45px;
+    cursor: pointer;
+}
+
+.closebtn:hover {
+    filter: invert(100%);
+    transform: rotate(360deg);
+    transition: 0.6s;
+}
+
+#darkSwitch {
+    width: 20px;
+    height: 20px;
+}
+
+.darkmtxt {
+    display: inline-block;
+    font-family: 'main', sans-serif;
+    font-size: 2.13em;
+    color: #070707;
+}
+
+.navcont{
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 1820px) {
+    .container{
+        width: 1500px;
+    }
+}
+
+@media only screen and (max-width: 1520px) {
+    .container{
+        width: 1200px;
+    }
+}
+
+@media only screen and (max-width: 1220px) {
+    .container{
+        width: 900px;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .container{
+        width: 600px;
+    }
+    .logo {
+        font-size: 3.26em;
+        width: 420px;
+        height: 65px;
+        padding: 15px;
+    }
+    .logodesc{
+        font-size: 1.506em;
+        width: 420px;
+    }
+    .menu {
+        width: 97px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .container{
+        width: 400px;
+    }
+    .logo {
+        font-size: 2.4em;
+        width: 206px;
+        height: 55px;
+        padding: 9px;
+    }
+    .logocont {
+        width: 400px;
+    }
+    .logodesc{
+        display: none;
+    }
+    .menu {
+        width: 55px;
+        margin-top: -104px;
+    }
+    .main {
+        margin-top: 30px;
+    }
+    #navbar{
+        height: 80px;
+    }
+    #navbar .menu{
+        width: 40px;
+    }
+    .sidenav a{
+        font-size: 2em;
+    }
+    .darkmtxt {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .container{
+        width: 300px;
+    }
+    .logocont {
+        width: 300px;
+    }
+    .logo {
+        font-size: 1.8em;
+    }
+    .menu {
+        width: 48px;
+        margin-top: -110px;
+    }
+    #navbar{
+        height: 65px;
+    }
+    #navbar .menu {
+        width: 34px;
+        padding: 2px;
+    }
+}

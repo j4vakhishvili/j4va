@@ -1,0 +1,154 @@
+.postbg{
+    width: 100%;
+    height: 480px;
+    background: #FFD400;
+    margin-bottom: 560px;
+}
+
+.post-cover{
+    width: 1440px;
+    height: 818px;
+    background: #111111;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-cover-img{
+    width: 1440px;
+    margin-bottom: 10px;
+}
+
+.paterncont{
+    padding-top: 120px;
+}
+
+.social{
+    margin-right: 16px;
+}
+
+.pagelink{
+    font-family: 'BOG-B', sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    line-height: 49%;
+}
+
+[data-theme="dark"] .pagelink {
+    color: #eeeeee;
+  }
+
+.golink{
+    width: 310px;
+    height: 75px;
+    border: 1px solid #070707;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 19px;
+}
+
+[data-theme="dark"] .golink {
+    border: 1px solid #eeeeee;
+  }
+
+.goweb{
+    font-family: 'main', sans-serif;
+    line-height: 25px;
+}
+
+.goweb:hover{
+    background-color: #FFD400;
+    transition: 0.3s;
+    color: #111111;
+}
+
+@media only screen and (max-width: 1820px) {
+    .social{
+        margin-right: 2px;
+    }
+}
+
+@media only screen and (max-width: 1520px) {
+    .post-cover{
+        width: 1140px;
+        height: 647px;
+    }
+    .post-cover-img{
+        width: 1140px;
+    }
+    .postbg{
+        margin-bottom: 400px;
+    }
+}
+
+@media only screen and (max-width: 1220px) {
+    .post-cover{
+        width: 900px;
+        height: 515px;
+    }
+    .post-cover-img{
+        width: 900px;
+    }
+    .postbg{
+        height: 400px;
+        margin-bottom: 350px;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .post-cover{
+        width: 600px;
+        height: 343px;
+    }
+    .post-cover-img{
+        width: 600px;
+    }
+    .postbg{
+        height: 300px;
+        margin-bottom: 260px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .post-cover{
+        width: 400px;
+        height: 228px;
+    }
+    .post-cover-img{
+        width: 400px;
+    }
+    .postbg{
+        height: 180px;
+        margin-bottom: 220px;
+    }
+    .paterncont{
+        padding-top: 70px;
+    }
+    .social{
+        margin-right: 0;
+        width: 192px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .post-cover{
+        width: 300px;
+        height: 171.6px;
+    }
+    .post-cover-img{
+        width: 300px;
+    }
+    .postbg{
+        height: 100px;
+        margin-bottom: 210px;
+    }
+    .paterncont{
+        padding-top: 40px;
+    }
+    .social{
+        width: 145px;
+    }
+}

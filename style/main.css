@@ -1,0 +1,74 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+    font-family: 'BOG-B';
+    src: url(fonts/BOG-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'BOG-M';
+    src: url(fonts/BOG-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'BOG-R';
+    src: url(fonts/BOG-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'BOG-SB';
+    src: url(fonts/BOG-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Main';
+    src: url(fonts/mainfont.ttf);
+}
+
+@font-face {
+    font-family: 'Main-lite';
+    src: url(fonts/olney_light.otf);
+}
+
+@font-face {
+  font-family: 'crystal-b';
+  src: url(fonts/CrystalB.ttf);
+}
+
+@font-face {
+  font-family: 'crystal-m';
+  src: url(fonts/CrystalM.ttf);
+}
+
+@font-face {
+  font-family: 'mcgeo';
+  src: url(fonts/mcgeo.ttf);
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: black; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #333333; 
+  }
+  
+  ::selection {
+      background: #4a1ffe;
+      color: white;
+  }
+
+  button:focus {
+    outline: none;
+}

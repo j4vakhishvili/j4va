@@ -1,0 +1,25 @@
+[data-theme="dark"] {
+    background-image: url(assets/images/bgdark.jpg);
+    color: #eee;
+}
+
+[data-theme="dark"] .bg-black {
+    background-image: url(assets/images/bglight.jpg);
+}
+
+[data-theme="dark"] .bg-dark {
+    background-image: url(assets/images/bglight.jpg);
+}
+
+[data-theme="dark"] .bg-light {
+    background-image: url(assets/images/bgdark.jpg);
+}
+
+[data-theme="dark"] .bg-white {
+    background-image: url(assets/images/bgdark.jpg);
+}
+
+body {
+    background-image: url(assets/images/bglight.jpg);
+    background-size: inherit;
+}

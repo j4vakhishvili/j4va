@@ -1,0 +1,244 @@
+  .main {
+      margin-top: 70px;
+  }
+
+  .wcid {
+      width: 1135px;
+      height: 650px;
+      background: url(assets/images/what\ can\ i\ do.svg);
+      background-size: cover;
+      background-position: 50% 50%;
+      z-index: 1;
+      display: inline-block;
+  }
+
+  .wciddescbg {
+      width: 850px;
+      height: 605px;
+      background-color: #F2F2F2;
+      margin: -530px 0px 0px 0px;
+      float: right;
+  }
+
+  .wciddesccover {
+      width: 630px;
+      float: right;
+  }
+
+  .wcidtitle {
+      font-family: 'main', sans-serif;
+      font-size: 4em;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  [data-theme="dark"] .wcidtitle {
+      color: #000;
+  }
+
+  .wciddesc {
+      font-family: 'BOG-M', sans-serif;
+      font-size: 26px;
+      width: 580px;
+      color: #00000085;
+  }
+
+  .buttondecor {
+      width: 99%;
+      margin-left: 5px;
+      height: 120px;
+      background: #F2F2F2;
+      display: inline-block;
+      margin-bottom: 18px;
+  }
+
+  .button {
+      height: 120px;
+      background: #070707;
+      transform: rotate(359deg);
+      display: block;
+      z-index: 1;
+      margin-top: -140px;
+      cursor: pointer;
+      color: white;
+      margin-bottom: 18px;
+  }
+
+  .button:hover {
+      background: #FFD400;
+      color: #070707;
+      transition: 0.4s;
+      margin-top: -142px;
+      transform: rotate(360deg);
+  }
+
+  .button a {
+      font-size: 2.13em;
+      font-family: 'main', sans-serif;
+      z-index: 99;
+      line-height: 115px;
+  }
+
+  @media only screen and (max-width: 1820px) {
+      .wcid {
+          width: 985px;
+          height: 564px;
+      }
+
+      .wciddesccover {
+          width: 500px;
+      }
+
+      .wcidtitle {
+          font-size: 3.3em;
+          margin-block-end: 0.2em;
+      }
+
+      .wciddesc {
+          width: 470px;
+          margin-block-start: 0.3em;
+      }
+  }
+
+  @media only screen and (max-width: 1520px) {
+      .wcid {
+          width: 1200px;
+          height: 687px;
+      }
+
+      .wciddescbg {
+          height: 370px;
+          margin: -40px 0px 0px 155px;
+          float: none;
+      }
+
+      .wciddesccover {
+          width: 800px;
+          float: none;
+          margin-left: auto;
+          margin-right: auto;
+      }
+
+      .wcidtitle {
+          font-size: 3.3em;
+          margin-block-end: 0.2em;
+      }
+
+      .wciddesc {
+          width: 800px;
+          margin-block-start: 0.3em;
+      }
+  }
+
+  @media only screen and (max-width: 1220px) {
+      .wcid {
+          width: 900px;
+          height: 515px;
+      }
+
+      .wciddescbg {
+          height: 370px;
+          margin: -40px 0px 0px 20px;
+          float: none;
+      }
+  }
+
+  @media only screen and (max-width: 920px) {
+      .wcid {
+          width: 600px;
+          height: 343px;
+      }
+
+      .wciddescbg {
+          width: 473px;
+          height: 244px;
+          margin: -30px 0px 0px 60px;
+          float: none;
+      }
+
+      .wcidtitle {
+          font-size: 2.2em;
+      }
+
+      .wciddesc {
+          width: 456px;
+          font-size: 0.96em;
+          margin-block-start: 0.3em;
+      }
+
+      .wciddesccover {
+          width: 450px;
+      }
+  }
+
+  @media only screen and (max-width: 620px) {
+      .main{
+          margin-top: 0px;
+      }
+    .wcid {
+        width: 400px;
+        height: 229px;
+    }
+
+    .wciddescbg {
+        width: 340px;
+        height: 180px;
+        float: none;
+        margin: -20px 0px 0px 30px;
+    }
+
+    .wcidtitle {
+        font-size: 1.46em;
+    }
+
+    .wciddesc {
+        width: 310px;
+        font-size: 0.7em;
+        margin-block-start: 0.3em;
+    }
+
+    .wciddesccover {
+        width: 310px;
+    }
+    .buttondecor{
+        height: 94px;
+    }
+    .button{
+        height: 94px;
+        margin-top: -120px;
+    }
+    .button a{
+        line-height: 90px;
+    }
+    .button:hover{
+        margin-top: -116px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .wcid {
+        width: 300px;
+        height: 171px;
+    }
+    .wciddescbg {
+        width: 270px;
+        height: 150px;
+        float: none;
+        margin: -20px 0px 0px 15px;
+    }
+    .wcidtitle {
+        margin-block-start: 1em;
+        font-size: 1.2em;
+    }
+    .wciddesc {
+        width: 250px;
+        font-size: 0.64em;
+        margin-block-start: 0.3em;
+    }
+    .wciddesccover {
+        width: 250px;
+    }
+    .button a{
+        font-size: 1.6em;
+    }
+}

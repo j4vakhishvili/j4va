@@ -1,0 +1,194 @@
+.projhover{
+    background: url(assets/images/seefull.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: 0.3s;
+}
+
+.download{
+    background: url(assets/images/downloadbtn.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: 0.3s;
+}
+
+.resume{
+    background: url(assets/images/resume.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+    cursor: pointer;
+}
+
+.proj1{
+    background: url(assets/images/what\ can\ i\ do.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.tsifruliweb{
+    background: url(assets/images/postcovers/tsifruli.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.tsifruliwebpost{
+    background: url(assets/images/postcovers/tsifruliproject.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.playingcards{
+    background: url(assets/images/postcovers/playingcards.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.khinkali{
+    background: url(assets/images/postcovers/khinkali.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.wineweb{
+    background: url(assets/images/postcovers/wineweb.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.astrochess{
+    background: url(assets/images/postcovers/a4strochess.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.may26{
+    background: url(assets/images/postcovers/26may.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.bposter{
+    background: url(assets/images/postcovers/bm-poster.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.animestyle{
+    background: url(assets/images/postcovers/georgiananime.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.photoshop{
+    background: url(assets/images/postcovers/Photoshop.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.runner{
+    background: url(assets/images/postcovers/darknes\ runner.gif);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.drawing{
+    background: url(assets/images/postcovers/girl\ drawing.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.girlpixelart{
+    background: url(assets/images/postcovers/girl\ pixelart.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.girlmanipulation{
+    background: url(assets/images/postcovers/girl-01.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.japan{
+    background: url(assets/images/postcovers/JAPAN.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.porche{
+    background: url(assets/images/postcovers/Porche-01.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.ballon{
+    background: url(assets/images/postcovers/ballon.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.bird{
+    background: url(assets/images/postcovers/bird-01.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.capsule{
+    background: url(assets/images/postcovers/capsule-01.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.egirl{
+    background: url(assets/images/postcovers/egirl-01.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.potatofy{
+    background: url(assets/images/postcovers/Potatofy-01.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.lineart{
+    background: url(assets/images/postcovers/line\ art-01.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.nike{
+    background: url(assets/images/postcovers/nike.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.retro1{
+    background: url(assets/images/postcovers/retro-01-01.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.retro2{
+    background: url(assets/images/postcovers/retro-03-01.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.delorean{
+    background: url(assets/images/postcovers/retro-01.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.skull{
+    background: url(assets/images/postcovers/skull-01.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.astrex{
+    background: url(assets/images/postcovers/astrex.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}

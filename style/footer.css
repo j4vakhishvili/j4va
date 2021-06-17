@@ -1,0 +1,133 @@
+footer {
+  border-top: 1px solid #070707;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+[data-theme="dark"] footer {
+  border-top: 1px solid #eeeeee;
+}
+
+.rights {
+  font-family: "BOG-B", sans-serif;
+  font-size: 1.6em;
+}
+
+.ftlink {
+  font-family: "BOG-B", sans-serif;
+  font-size: 1.3em;
+  color: #070707;
+  text-decoration: none;
+}
+
+.ftlink:hover {
+  text-decoration: underline;
+  transition: 0.2s;
+}
+
+[data-theme="dark"] .ftlink {
+  color: #eeeeee;
+}
+
+.right {
+  float: right;
+}
+
+.social {
+  width: 335px;
+  height: 75px;
+  border: 1px solid #070707;
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 19px;
+}
+
+[data-theme="dark"] .social {
+  border: 1px solid #eeeeee;
+}
+
+.sociallink {
+  font-family: 'BOG-B', sans-serif;
+  font-size: 1.9em;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  line-height: 49%;
+}
+
+[data-theme="dark"] .sociallink {
+  color: #eeeeee;
+}
+
+.yt:hover {
+  background: rgb(177, 0, 0);
+  transition: 0.3s;
+}
+
+.be:hover {
+  background: rgb(1, 92, 255);
+  transition: 0.3s;
+}
+
+.dr:hover {
+  background: rgb(231, 77, 137);
+  transition: 0.3s;
+}
+
+.ig:hover {
+  background: linear-gradient(211deg, rgba(247, 212, 0, 1) -10%, rgba(239, 13, 30, 1) 50%, rgba(126, 62, 177, 1) 110%);
+  transition: 0.3s;
+}
+
+.fb:hover {
+  background: linear-gradient(198deg, rgba(25, 173, 255, 1) 0%, rgba(2, 98, 225, 1) 100%);
+  transition: 0.3s;
+}
+
+@media only screen and (max-width: 1820px) {
+  .social {
+    width: 289px;
+    margin-right: 5px;
+  }
+}
+
+@media only screen and (max-width: 1520px) {
+  .social {
+    width: 386px;
+    margin-right: 9px;
+  }
+}
+
+@media only screen and (max-width: 1820px) {
+  .social {
+    width: 289px;
+    margin-right: 5px;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .social {
+    width: 196px;
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  footer{
+    margin-top: 40px;
+  }
+  .rights{
+    font-size: 1.2em;
+  }
+  .ftlink{
+    font-size: 1em;
+  }
+  .social {
+    width: 140px;
+    height: 56px;
+    margin-right: 0;
+  }
+  .sociallink{
+    font-size: 1.4em;
+  }
+}
